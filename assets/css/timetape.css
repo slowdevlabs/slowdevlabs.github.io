@@ -1,0 +1,203 @@
+/* --------------------------------------------------
+       TimeTape Landing Overrides
+    -------------------------------------------------- */
+
+    .timetape-page {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 120px 28px 140px;
+    }
+
+    .product-hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 96px;
+      min-height: 82vh;
+    }
+
+    .product-copy {
+      flex: 1;
+      max-width: 520px;
+    }
+
+    .product-copy h1 {
+      font-size: clamp(56px, 8vw, 104px);
+      line-height: 0.92;
+      letter-spacing: -0.06em;
+      margin: 18px 0 24px;
+    }
+
+    .hero-text {
+      max-width: 440px;
+      font-size: 18px;
+      line-height: 1.7;
+      color: rgba(255,255,255,0.72);
+    }
+
+    .product-visual {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+    }
+
+    /* -----------------------------------------
+       핵심 수정 부분
+       기존 대비 30% 수준으로 축소
+    ----------------------------------------- */
+
+    .hero-screenshot,
+    .feature-image {
+      width: 30%;
+      min-width: 220px;
+      max-width: 320px;
+      height: auto;
+      display: block;
+    }
+
+    /* ----------------------------------------- */
+
+    .feature-strip {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 120px;
+      padding: 180px 0;
+    }
+
+    .feature-strip.reverse {
+      flex-direction: row-reverse;
+    }
+
+    .feature-copy {
+      flex: 1;
+      max-width: 440px;
+    }
+
+    .feature-copy h2 {
+      font-size: clamp(36px, 5vw, 64px);
+      line-height: 1;
+      letter-spacing: -0.05em;
+      margin: 10px 0 18px;
+    }
+
+    .feature-copy p:not(.eyebrow) {
+      font-size: 17px;
+      line-height: 1.8;
+      color: rgba(255,255,255,0.72);
+    }
+
+    .eyebrow {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: #f5c96a;
+    }
+
+    .pro-section {
+      padding: 180px 0 120px;
+      max-width: 620px;
+    }
+
+    .pro-section h2 {
+      font-size: clamp(40px, 5vw, 72px);
+      line-height: 1;
+      letter-spacing: -0.05em;
+      margin: 12px 0 20px;
+    }
+
+    .pro-section p:not(.eyebrow) {
+      font-size: 18px;
+      line-height: 1.8;
+      color: rgba(255,255,255,0.72);
+    }
+
+    .product-icon {
+      width: 72px;
+      height: 72px;
+      border-radius: 18px;
+    }
+
+    .primary-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      height: 52px;
+      padding: 0 24px;
+      margin-top: 32px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.08);
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.2s ease;
+    }
+
+    .primary-button:hover {
+      background: rgba(255,255,255,0.12);
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-bottom: 28px;
+      color: rgba(255,255,255,0.56);
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    /* -----------------------------------------
+       Mobile
+    ----------------------------------------- */
+
+    @media (max-width: 960px) {
+
+      .product-hero,
+      .feature-strip,
+      .feature-strip.reverse {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 48px;
+      }
+
+      .feature-strip {
+        padding: 120px 0;
+      }
+
+      .hero-screenshot,
+      .feature-image {
+        width: 42%;
+        min-width: 220px;
+        max-width: 300px;
+        margin: 0 auto;
+      }
+
+      .product-visual {
+        width: 100%;
+      }
+
+      .product-copy h1 {
+        font-size: 64px;
+      }
+
+      .feature-copy h2 {
+        font-size: 42px;
+      }
+    }
+
+    .product-visual,
+    .feature-visual {
+      width: min(32vw, 360px);
+      min-width: 240px;
+      display: flex;
+      justify-content: center;
+    }
+    
+    .product-visual img,
+    .feature-visual img {
+      width: 100%;
+      max-height: 620px;
+      object-fit: contain;
+      display: block;
+    }
