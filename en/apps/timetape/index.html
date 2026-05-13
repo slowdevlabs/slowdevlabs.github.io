@@ -4,120 +4,332 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>TimeTape · SlowDevLabs</title>
+
   <meta
     name="description"
     content="TimeTape is a calm visual timeline for world time, daylight, and city moments."
   />
+
   <link rel="stylesheet" href="/assets/css/style.css" />
+
+  <style>
+    /* --------------------------------------------------
+       TimeTape Landing Overrides
+    -------------------------------------------------- */
+
+    .timetape-page {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 120px 28px 140px;
+    }
+
+    .product-hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 96px;
+      min-height: 82vh;
+    }
+
+    .product-copy {
+      flex: 1;
+      max-width: 520px;
+    }
+
+    .product-copy h1 {
+      font-size: clamp(56px, 8vw, 104px);
+      line-height: 0.92;
+      letter-spacing: -0.06em;
+      margin: 18px 0 24px;
+    }
+
+    .hero-text {
+      max-width: 440px;
+      font-size: 18px;
+      line-height: 1.7;
+      color: rgba(255,255,255,0.72);
+    }
+
+    .product-visual {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+    }
+
+    /* -----------------------------------------
+       핵심 수정 부분
+       기존 대비 30% 수준으로 축소
+    ----------------------------------------- */
+
+    .hero-screenshot,
+    .feature-image {
+      width: 30%;
+      min-width: 220px;
+      max-width: 320px;
+      height: auto;
+      display: block;
+    }
+
+    /* ----------------------------------------- */
+
+    .feature-strip {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 120px;
+      padding: 180px 0;
+    }
+
+    .feature-strip.reverse {
+      flex-direction: row-reverse;
+    }
+
+    .feature-copy {
+      flex: 1;
+      max-width: 440px;
+    }
+
+    .feature-copy h2 {
+      font-size: clamp(36px, 5vw, 64px);
+      line-height: 1;
+      letter-spacing: -0.05em;
+      margin: 10px 0 18px;
+    }
+
+    .feature-copy p:not(.eyebrow) {
+      font-size: 17px;
+      line-height: 1.8;
+      color: rgba(255,255,255,0.72);
+    }
+
+    .eyebrow {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: #f5c96a;
+    }
+
+    .pro-section {
+      padding: 180px 0 120px;
+      max-width: 620px;
+    }
+
+    .pro-section h2 {
+      font-size: clamp(40px, 5vw, 72px);
+      line-height: 1;
+      letter-spacing: -0.05em;
+      margin: 12px 0 20px;
+    }
+
+    .pro-section p:not(.eyebrow) {
+      font-size: 18px;
+      line-height: 1.8;
+      color: rgba(255,255,255,0.72);
+    }
+
+    .product-icon {
+      width: 72px;
+      height: 72px;
+      border-radius: 18px;
+    }
+
+    .primary-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      height: 52px;
+      padding: 0 24px;
+      margin-top: 32px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.08);
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.2s ease;
+    }
+
+    .primary-button:hover {
+      background: rgba(255,255,255,0.12);
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-bottom: 28px;
+      color: rgba(255,255,255,0.56);
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    /* -----------------------------------------
+       Mobile
+    ----------------------------------------- */
+
+    @media (max-width: 960px) {
+
+      .product-hero,
+      .feature-strip,
+      .feature-strip.reverse {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 48px;
+      }
+
+      .feature-strip {
+        padding: 120px 0;
+      }
+
+      .hero-screenshot,
+      .feature-image {
+        width: 42%;
+        min-width: 220px;
+        max-width: 300px;
+        margin: 0 auto;
+      }
+
+      .product-visual {
+        width: 100%;
+      }
+
+      .product-copy h1 {
+        font-size: 64px;
+      }
+
+      .feature-copy h2 {
+        font-size: 42px;
+      }
+    }
+  </style>
 </head>
 
 <body>
-  <main class="page app-page timetape-page">
+
+  <main class="page timetape-page">
+
+    <!-- HERO -->
+
     <section class="product-hero">
+
       <div class="product-copy">
+
         <a class="back-link" href="/en/">← SlowDevLabs</a>
 
         <img
           src="/assets/images/timetape/icon.png"
-          alt="TimeTape app icon"
+          alt="TimeTape icon"
           class="product-icon"
         />
 
         <p class="eyebrow">TimeTape</p>
 
-        <h1>Feel the world’s rhythm.</h1>
+        <h1>Feel the world's rhythm.</h1>
 
         <p class="hero-text">
           A calm visual timeline for world time, daylight, and city moments.
         </p>
 
-        <a class="primary-button" href="#" aria-label="Download TimeTape on the App Store">
+        <a class="primary-button" href="#">
           Coming Soon
         </a>
+
       </div>
 
       <div class="product-visual">
         <img
           src="/assets/images/timetape/screenshot-1-en.png"
-          alt="TimeTape world timeline screenshot"
+          alt="TimeTape Screenshot 1"
           class="hero-screenshot"
         />
       </div>
+
     </section>
 
+    <!-- FEATURE 1 -->
+
     <section class="feature-strip">
+
       <div class="feature-copy">
         <p class="eyebrow">Daylight Flow</p>
+
         <h2>See daylight flow across cities.</h2>
+
         <p>
-          The world is always in a different moment. TimeTape helps you feel
-          sunrise, daylight, sunset, and night at a glance.
+          The world is always in a different moment. Feel daylight move naturally
+          between cities at a glance.
         </p>
       </div>
 
       <img
         src="/assets/images/timetape/screenshot-2-en.png"
-        alt="TimeTape daylight flow screenshot"
+        alt="TimeTape Screenshot 2"
         class="feature-image"
       />
+
     </section>
 
+    <!-- FEATURE 2 -->
+
     <section class="feature-strip reverse">
+
       <div class="feature-copy">
         <p class="eyebrow">Drag Through Time</p>
+
         <h2>Flow naturally through time.</h2>
+
         <p>
-          Drag the timeline to explore how time shifts across the world without
-          switching between separate clocks.
+          Drag the timeline and explore different moments around the world with
+          calm continuity.
         </p>
       </div>
 
       <img
         src="/assets/images/timetape/screenshot-3-en.png"
-        alt="TimeTape drag through time screenshot"
+        alt="TimeTape Screenshot 3"
         class="feature-image"
       />
+
     </section>
 
-    <section class="feature-strip compact">
+    <!-- FEATURE 3 -->
+
+    <section class="feature-strip">
+
       <div class="feature-copy">
         <p class="eyebrow">Your Timeline</p>
+
         <h2>Build your own world timeline.</h2>
+
         <p>
-          Add, remove, and reorder cities to keep the places that matter most
-          close together.
+          Add, remove, and reorder cities to create a timeline centered around
+          your own daily rhythm.
         </p>
       </div>
 
       <img
         src="/assets/images/timetape/screenshot-4-en.png"
-        alt="TimeTape manage cities screenshot"
+        alt="TimeTape Screenshot 4"
         class="feature-image"
       />
+
     </section>
+
+    <!-- PRO -->
 
     <section class="pro-section">
+
       <p class="eyebrow">TimeTape Pro</p>
+
       <h2>Unlock unlimited cities.</h2>
+
       <p>
-        TimeTape Pro unlocks unlimited city timelines with a one-time purchase.
-        No subscription.
+        TimeTape Pro unlocks unlimited city timelines with a simple one-time
+        purchase.
       </p>
+
     </section>
+
   </main>
 
-  <footer class="footer">
-    <div>
-      <p>© SlowDevLabs</p>
-      <p class="footer-note">TimeTape · A calm visual timeline for world time.</p>
-    </div>
-
-    <nav>
-      <a href="https://timetape-data.slowdevlabs.workers.dev/support/en/">Support</a>
-      <a href="https://timetape-data.slowdevlabs.workers.dev/privacy/en/">Privacy</a>
-      <a href="https://timetape-data.slowdevlabs.workers.dev/terms/en/">Terms</a>
-      <a href="/en/">SlowDevLabs</a>
-    </nav>
-  </footer>
 </body>
 </html>
