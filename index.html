@@ -1,1 +1,12 @@
-Hello, Everyone.
+<script>
+  const lang = navigator.language || navigator.userLanguage || "en";
+  const lower = lang.toLowerCase();
+
+  if (lower.startsWith("ko")) {
+    location.replace("/ko/");
+  } else if (lower.startsWith("es")) {
+    location.replace("/es/");
+  } else {
+    location.replace("/en/");
+  }
+</script>
