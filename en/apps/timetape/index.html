@@ -200,6 +200,22 @@
         font-size: 42px;
       }
     }
+
+    .product-visual,
+    .feature-visual {
+      width: min(32vw, 360px);
+      min-width: 240px;
+      display: flex;
+      justify-content: center;
+    }
+    
+    .product-visual img,
+    .feature-visual img {
+      width: 100%;
+      max-height: 620px;
+      object-fit: contain;
+      display: block;
+    }
   </style>
 </head>
 
@@ -235,13 +251,13 @@
 
       </div>
 
-      <div class="product-visual">
+      <div class="product-visual"><div class="feature-visual">
         <img
           src="/assets/images/timetape/screenshot-1-en.png"
           alt="TimeTape Screenshot 1"
           class="hero-screenshot"
         />
-      </div>
+      </div></div>
 
     </section>
 
@@ -260,11 +276,13 @@
         </p>
       </div>
 
+      <div class="product-visual"><div class="feature-visual">
       <img
         src="/assets/images/timetape/screenshot-2-en.png"
         alt="TimeTape Screenshot 2"
         class="feature-image"
       />
+      </div></div>
 
     </section>
 
@@ -283,11 +301,13 @@
         </p>
       </div>
 
+      <div class="product-visual"><div class="feature-visual">
       <img
         src="/assets/images/timetape/screenshot-3-en.png"
         alt="TimeTape Screenshot 3"
         class="feature-image"
       />
+      </div></div>
 
     </section>
 
@@ -306,11 +326,13 @@
         </p>
       </div>
 
+      <div class="product-visual"><div class="feature-visual">
       <img
         src="/assets/images/timetape/screenshot-4-en.png"
         alt="TimeTape Screenshot 4"
         class="feature-image"
       />
+      </div></div>
 
     </section>
 
@@ -330,6 +352,18 @@
     </section>
 
   </main>
+<footer class="footer">
+  <div>
+    <p>© SlowDevLabs</p>
+    <p class="footer-note">TimeTape · A calm visual timeline for world time.</p>
+  </div>
 
+  <nav>
+    <a href="https://timetape-data.slowdevlabs.workers.dev/support/en/">Support</a>
+    <a href="https://timetape-data.slowdevlabs.workers.dev/privacy/en/">Privacy</a>
+    <a href="https://timetape-data.slowdevlabs.workers.dev/terms/en/">Terms</a>
+    <a href="/en/">SlowDevLabs</a>
+  </nav>
+</footer>
 </body>
 </html>
