@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+  <title id="title">CUE hero artwork</title>
+  <desc id="desc">Neon KPOP memory challenge artwork with vinyl and waveform elements.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0b1123"/>
+      <stop offset="0.55" stop-color="#070b17"/>
+      <stop offset="1" stop-color="#050711"/>
+    </linearGradient>
+    <radialGradient id="magenta" cx="20%" cy="14%" r="55%">
+      <stop offset="0" stop-color="#ff6bd6" stop-opacity=".38"/>
+      <stop offset=".5" stop-color="#ff6bd6" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#ff6bd6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cyan" cx="78%" cy="20%" r="56%">
+      <stop offset="0" stop-color="#7ff3ff" stop-opacity=".34"/>
+      <stop offset=".5" stop-color="#7ff3ff" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#7ff3ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ring" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#7ff3ff"/>
+      <stop offset=".55" stop-color="#ff6bd6"/>
+      <stop offset="1" stop-color="#9d7bff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1600" rx="80" fill="url(#bg)"/>
+  <rect width="1200" height="1600" rx="80" fill="url(#magenta)"/>
+  <rect width="1200" height="1600" rx="80" fill="url(#cyan)"/>
+  <g opacity=".35">
+    <circle cx="290" cy="280" r="180" fill="#7ff3ff"/>
+    <circle cx="936" cy="320" r="220" fill="#ff6bd6"/>
+  </g>
+  <g opacity=".18" stroke="#ffffff" stroke-width="6" stroke-linecap="round">
+    <path d="M126 1068c110-110 222-110 336 0s226 110 342 0 230-110 344 0"/>
+    <path d="M126 1118c110-110 222-110 336 0s226 110 342 0 230-110 344 0"/>
+  </g>
+  <g transform="translate(650 860)">
+    <circle r="286" fill="none" stroke="url(#ring)" stroke-width="24" opacity=".95"/>
+    <circle r="184" fill="none" stroke="#ffffff" stroke-opacity=".16" stroke-width="14"/>
+    <circle r="96" fill="#0e1531" stroke="url(#ring)" stroke-width="10"/>
+    <circle r="28" fill="#f7f8ff" fill-opacity=".92"/>
+    <path d="M-180 22c56 42 126 66 180 66 96 0 180-42 240-118" fill="none" stroke="#7ff3ff" stroke-width="16" stroke-linecap="round"/>
+    <path d="M-180 58c60 34 124 50 180 50 92 0 170-36 236-104" fill="none" stroke="#ff6bd6" stroke-width="7" stroke-linecap="round" opacity=".6"/>
+  </g>
+  <g transform="translate(118 188)">
+    <rect x="0" y="0" width="420" height="208" rx="40" fill="#0a0f21" fill-opacity=".82" stroke="#7ff3ff" stroke-opacity=".2"/>
+    <text x="32" y="66" fill="#7ff3ff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="28" font-weight="800" letter-spacing="4">CUE</text>
+    <text x="32" y="126" fill="#f7f8ff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="54" font-weight="800" letter-spacing="-2">KPOP Memory Challenge</text>
+    <text x="32" y="170" fill="#cbd1f6" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="24" font-weight="500">Short previews. Fast guesses. Neon rhythm.</text>
+  </g>
+  <g transform="translate(760 180)">
+    <rect x="0" y="0" width="304" height="304" rx="54" fill="#0a0f21" fill-opacity=".78" stroke="#ffffff" stroke-opacity=".08"/>
+    <rect x="46" y="46" width="212" height="12" rx="6" fill="#7ff3ff" fill-opacity=".8"/>
+    <rect x="46" y="78" width="158" height="12" rx="6" fill="#ff6bd6" fill-opacity=".72"/>
+    <rect x="46" y="110" width="194" height="12" rx="6" fill="#9d7bff" fill-opacity=".72"/>
+    <rect x="46" y="168" width="212" height="74" rx="24" fill="#f7f8ff" fill-opacity=".08"/>
+    <rect x="72" y="190" width="160" height="18" rx="9" fill="#f7f8ff" fill-opacity=".82"/>
+    <rect x="72" y="218" width="112" height="12" rx="6" fill="#7ff3ff" fill-opacity=".78"/>
+  </g>
+  <g transform="translate(0 1240)">
+    <rect width="1200" height="360" fill="url(#bg)" fill-opacity=".45"/>
+    <path d="M180 108h30l14-58 20 92 20-44 24 88 22-70 18 42 16-22h24" fill="none" stroke="#7ff3ff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M720 118h30l14-58 20 92 20-44 24 88 22-70 18 42 16-22h24" fill="none" stroke="#ff6bd6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="80" y="250" fill="#f7f8ff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="28" font-weight="700" letter-spacing="6">APPLE MUSIC PREVIEWS</text>
+  </g>
+</svg>

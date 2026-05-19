@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" role="img" aria-labelledby="title desc">
+  <title id="title">CUE Correct/Wrong screenshot</title>
+  <desc id="desc">Result screen mockup showing correct and wrong answer feedback states.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#08101f"/>
+      <stop offset="1" stop-color="#050711"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1920" rx="78" fill="url(#bg)"/>
+  <circle cx="220" cy="250" r="180" fill="#7ff3ff" fill-opacity=".08"/>
+  <circle cx="824" cy="1560" r="184" fill="#ff6bd6" fill-opacity=".08"/>
+  <text x="92" y="144" fill="#7ff3ff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="26" font-weight="800" letter-spacing="4">RESULT</text>
+  <text x="92" y="212" fill="#f7f8ff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="54" font-weight="800">Correct or wrong.</text>
+  <text x="92" y="258" fill="#cfd5fb" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="22">Immediate feedback keeps every round moving fast.</text>
+  <rect x="92" y="344" width="896" height="638" rx="56" fill="#0d1430" fill-opacity=".9"/>
+  <rect x="132" y="392" width="816" height="214" rx="42" fill="#7ff3ff" fill-opacity=".16"/>
+  <text x="172" y="466" fill="#7ff3ff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="26" font-weight="800">CORRECT</text>
+  <text x="172" y="522" fill="#f7f8ff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="34" font-weight="800">You caught the cue.</text>
+  <text x="172" y="562" fill="#cfd5fb" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="20">Bonus streak preserved and the next track is already loading.</text>
+  <rect x="132" y="638" width="816" height="214" rx="42" fill="#ff6bd6" fill-opacity=".14"/>
+  <text x="172" y="712" fill="#ff6bd6" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="26" font-weight="800">WRONG</text>
+  <text x="172" y="768" fill="#f7f8ff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="34" font-weight="800">Close, but not quite.</text>
+  <text x="172" y="808" fill="#cfd5fb" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="20">Retry instantly and keep the memory challenge moving.</text>
+  <rect x="132" y="888" width="816" height="54" rx="27" fill="#f7f8ff" fill-opacity=".08"/>
+  <text x="172" y="924" fill="#f7f8ff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="20" font-weight="700">Tap to continue</text>
+  <text x="92" y="1760" fill="#f7f8ff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="26" font-weight="700" letter-spacing="4">CORRECT / WRONG FEEDBACK</text>
+</svg>

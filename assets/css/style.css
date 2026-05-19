@@ -30,6 +30,69 @@ a {
   text-decoration: none;
 }
 
+.app-shell {
+  width: min(100% - 40px, var(--max));
+  margin: 0 auto;
+}
+
+.app-header {
+  padding: 28px 0 0;
+}
+
+.app-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.app-brand {
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+  text-transform: uppercase;
+}
+
+.app-back-link {
+  color: var(--soft);
+  font-size: 14px;
+  transition: opacity 0.2s ease, color 0.2s ease;
+}
+
+.app-back-link:hover {
+  color: var(--text);
+}
+
+.app-footer {
+  width: min(100% - 40px, var(--max));
+  margin: 0 auto;
+  padding: 34px 0 48px;
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  color: var(--soft);
+  border-top: 1px solid rgba(255,255,255,.08);
+}
+
+.app-footer p { margin: 0; }
+
+.app-footer-note {
+  margin-top: 8px !important;
+  color: var(--soft);
+}
+
+.app-footer nav {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.app-footer a:hover {
+  color: var(--text);
+}
+
 .page {
   width: min(100% - 40px, var(--max));
   margin: 0 auto;
@@ -83,7 +146,7 @@ h2 {
 
 .app-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 18px;
 }
 
@@ -203,6 +266,21 @@ h2 {
   .footer {
     width: min(100% - 28px, var(--max));
     flex-direction: column;
+  }
+
+  .app-shell,
+  .app-footer {
+    width: min(100% - 28px, var(--max));
+  }
+
+  .app-topbar,
+  .app-footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .app-footer nav {
+    justify-content: flex-start;
   }
 }
 

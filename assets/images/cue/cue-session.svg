@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" role="img" aria-labelledby="title desc">
+  <title id="title">CUE Session Complete screenshot</title>
+  <desc id="desc">Session complete screen mockup with score summary and replay prompt.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#091222"/>
+      <stop offset="1" stop-color="#050711"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1920" rx="78" fill="url(#bg)"/>
+  <circle cx="828" cy="248" r="172" fill="#7ff3ff" fill-opacity=".08"/>
+  <circle cx="242" cy="1514" r="214" fill="#ff6bd6" fill-opacity=".08"/>
+  <text x="92" y="144" fill="#7ff3ff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="26" font-weight="800" letter-spacing="4">SESSION COMPLETE</text>
+  <text x="92" y="214" fill="#f7f8ff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="54" font-weight="800">How well did you know it?</text>
+  <text x="92" y="258" fill="#cfd5fb" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="22">Review your streak, score, and next best match.</text>
+  <rect x="92" y="350" width="896" height="720" rx="56" fill="#0d1430" fill-opacity=".9"/>
+  <circle cx="540" cy="566" r="170" fill="none" stroke="#7ff3ff" stroke-width="20"/>
+  <circle cx="540" cy="566" r="108" fill="none" stroke="#ff6bd6" stroke-width="12"/>
+  <text x="540" y="530" fill="#f7f8ff" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="84" font-weight="800">92%</text>
+  <text x="540" y="602" fill="#7ff3ff" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="24" font-weight="800" letter-spacing="4">ACCURACY</text>
+  <rect x="152" y="808" width="776" height="86" rx="28" fill="#ffffff" fill-opacity=".08"/>
+  <text x="198" y="860" fill="#f7f8ff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="24" font-weight="700">Streak saved: 8 rounds</text>
+  <rect x="152" y="912" width="776" height="86" rx="28" fill="#7ff3ff" fill-opacity=".16"/>
+  <text x="198" y="964" fill="#f7f8ff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="24" font-weight="700">Replay with a harder preview</text>
+  <rect x="92" y="1126" width="896" height="188" rx="48" fill="#0a0f21" fill-opacity=".88" stroke="#ffffff" stroke-opacity=".06"/>
+  <text x="132" y="1192" fill="#7ff3ff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="28" font-weight="800">Session complete</text>
+  <text x="132" y="1240" fill="#f7f8ff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="24" font-weight="700">The next round is one tap away.</text>
+  <text x="92" y="1760" fill="#f7f8ff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="26" font-weight="700" letter-spacing="4">SESSION COMPLETE</text>
+</svg>

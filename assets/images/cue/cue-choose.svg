@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" role="img" aria-labelledby="title desc">
+  <title id="title">CUE Choose screenshot</title>
+  <desc id="desc">Choice screen mockup with answer options and neon highlight states.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0a1224"/>
+      <stop offset="1" stop-color="#050711"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1920" rx="78" fill="url(#bg)"/>
+  <circle cx="832" cy="214" r="176" fill="#ff6bd6" fill-opacity=".08"/>
+  <circle cx="214" cy="1580" r="202" fill="#7ff3ff" fill-opacity=".08"/>
+  <text x="92" y="144" fill="#7ff3ff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="26" font-weight="800" letter-spacing="4">CHOOSE</text>
+  <text x="92" y="212" fill="#f7f8ff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="54" font-weight="800">Which era is it?</text>
+  <text x="92" y="258" fill="#cfd5fb" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="22">Pick the most likely title before the cue expires.</text>
+  <rect x="92" y="346" width="896" height="360" rx="54" fill="#0f1733" fill-opacity=".9"/>
+  <text x="134" y="420" fill="#f7f8ff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="30" font-weight="800">Quick picks</text>
+  <rect x="134" y="466" width="812" height="78" rx="26" fill="#7ff3ff" fill-opacity=".16"/>
+  <rect x="134" y="562" width="812" height="78" rx="26" fill="#ff6bd6" fill-opacity=".12"/>
+  <rect x="134" y="658" width="812" height="78" rx="26" fill="#ffffff" fill-opacity=".07"/>
+  <text x="172" y="516" fill="#f7f8ff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="24" font-weight="700">Title A</text>
+  <text x="172" y="612" fill="#f7f8ff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="24" font-weight="700">Title B</text>
+  <text x="172" y="708" fill="#f7f8ff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="24" font-weight="700">Title C</text>
+  <circle cx="842" cy="512" r="20" fill="#7ff3ff"/>
+  <circle cx="842" cy="608" r="20" fill="#ff6bd6"/>
+  <circle cx="842" cy="704" r="20" fill="#f7f8ff" fill-opacity=".22"/>
+  <rect x="92" y="758" width="896" height="622" rx="54" fill="#0c132a" fill-opacity=".9" stroke="#ffffff" stroke-opacity=".06"/>
+  <text x="132" y="836" fill="#7ff3ff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="28" font-weight="800">Era hints</text>
+  <rect x="132" y="882" width="244" height="222" rx="34" fill="#7ff3ff" fill-opacity=".12"/>
+  <rect x="398" y="882" width="244" height="222" rx="34" fill="#ff6bd6" fill-opacity=".12"/>
+  <rect x="664" y="882" width="244" height="222" rx="34" fill="#9d7bff" fill-opacity=".12"/>
+  <text x="170" y="964" fill="#f7f8ff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="24" font-weight="700">Synth</text>
+  <text x="436" y="964" fill="#f7f8ff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="24" font-weight="700">Ballad</text>
+  <text x="702" y="964" fill="#f7f8ff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="24" font-weight="700">Dance</text>
+  <text x="170" y="1012" fill="#a3abdc" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="18">Late-night gloss</text>
+  <text x="436" y="1012" fill="#a3abdc" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="18">Soft vocals</text>
+  <text x="702" y="1012" fill="#a3abdc" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="18">Big hook</text>
+  <text x="92" y="1760" fill="#f7f8ff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="26" font-weight="700" letter-spacing="4">ERA-BASED KPOP QUIZ</text>
+</svg>

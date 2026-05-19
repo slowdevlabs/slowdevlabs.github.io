@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" role="img" aria-labelledby="title desc">
+  <title id="title">CUE Playing screenshot</title>
+  <desc id="desc">Playing screen mockup with neon waveform and playback cues.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#08101f"/>
+      <stop offset="1" stop-color="#050711"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1920" rx="78" fill="url(#bg)"/>
+  <circle cx="864" cy="268" r="204" fill="#7ff3ff" fill-opacity=".1"/>
+  <circle cx="232" cy="1560" r="184" fill="#ff6bd6" fill-opacity=".08"/>
+  <text x="92" y="144" fill="#7ff3ff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="26" font-weight="800" letter-spacing="4">PLAYING</text>
+  <text x="92" y="212" fill="#f7f8ff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="54" font-weight="800">Guess the track.</text>
+  <text x="92" y="258" fill="#cfd5fb" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="22">Waveform up, time is running, and the cue is fading.</text>
+  <rect x="92" y="338" width="896" height="720" rx="56" fill="#0e1630" fill-opacity=".9"/>
+  <path d="M148 714h42l24-118 32 180 28-88 26 114 30-160 24 72 22-48h42" fill="none" stroke="#7ff3ff" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M148 794h42l24-118 32 180 28-88 26 114 30-160 24 72 22-48h42" fill="none" stroke="#ff6bd6" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity=".5"/>
+  <rect x="152" y="904" width="776" height="18" rx="9" fill="#f7f8ff" fill-opacity=".12"/>
+  <rect x="152" y="904" width="388" height="18" rx="9" fill="#7ff3ff" fill-opacity=".88"/>
+  <circle cx="168" cy="982" r="30" fill="#7ff3ff"/>
+  <rect x="222" y="960" width="368" height="18" rx="9" fill="#f7f8ff" fill-opacity=".9"/>
+  <rect x="222" y="992" width="206" height="12" rx="6" fill="#a3abdc"/>
+  <circle cx="168" cy="1052" r="30" fill="#ff6bd6"/>
+  <rect x="222" y="1030" width="280" height="18" rx="9" fill="#f7f8ff" fill-opacity=".9"/>
+  <rect x="222" y="1062" width="224" height="12" rx="6" fill="#a3abdc"/>
+  <rect x="92" y="1126" width="896" height="218" rx="42" fill="#0b1020" fill-opacity=".88" stroke="#ffffff" stroke-opacity=".06"/>
+  <text x="132" y="1194" fill="#7ff3ff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="30" font-weight="800">Preview timer</text>
+  <text x="132" y="1244" fill="#f7f8ff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="62" font-weight="800">00:14</text>
+  <text x="548" y="1194" fill="#7ff3ff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="30" font-weight="800">Answer lock</text>
+  <rect x="548" y="1226" width="334" height="74" rx="24" fill="#7ff3ff" fill-opacity=".16"/>
+  <text x="596" y="1274" fill="#f7f8ff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="24" font-weight="700">Tap once to confirm</text>
+  <text x="92" y="1760" fill="#f7f8ff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="26" font-weight="700" letter-spacing="4">NEON RETRO GAMEPLAY</text>
+</svg>
