@@ -1,12 +1,24 @@
-<script>
-  const lang = navigator.language || navigator.userLanguage || "en";
-  const lower = lang.toLowerCase();
-
-  if (lower.startsWith("ko")) {
-    location.replace("/ko/");
-  } else if (lower.startsWith("es")) {
-    location.replace("/es/");
-  } else {
-    location.replace("/en/");
-  }
-</script>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="refresh" content="5; url=/en/apps/timetape/" />
+  <title>SlowDevLabs</title>
+  <meta name="description" content="Redirecting to the SlowDevLabs app hub." />
+</head>
+<body>
+  <script src="/assets/js/redirect.js"></script>
+  <script>
+    window.SlowDevLabsRedirect.redirectByLanguage({
+      en: "/en/apps/timetape/",
+      ko: "/ko/apps/timetape/",
+      es: "/es/apps/timetape/",
+      fallback: "/en/apps/timetape/"
+    });
+  </script>
+  <noscript>
+    <p><a href="/en/apps/timetape/">Continue to SlowDevLabs</a></p>
+  </noscript>
+</body>
+</html>
