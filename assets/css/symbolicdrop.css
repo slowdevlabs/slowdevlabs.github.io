@@ -1,0 +1,221 @@
+:root {
+  --sd-bg: #050812;
+  --sd-surface: rgba(255, 255, 255, 0.05);
+  --sd-surface-strong: rgba(255, 255, 255, 0.09);
+  --sd-border: rgba(255, 255, 255, 0.12);
+  --sd-text: #f4f7ff;
+  --sd-muted: rgba(244, 247, 255, 0.72);
+  --sd-soft: rgba(244, 247, 255, 0.48);
+  --sd-accent: #ffd84d;
+  --sd-accent-soft: #7dd3fc;
+}
+
+.symbolicdrop-page {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 78% 12%, rgba(125, 211, 252, 0.12), transparent 28%),
+    radial-gradient(circle at 18% 0%, rgba(255, 216, 77, 0.10), transparent 32%),
+    linear-gradient(180deg, #050812 0%, #040711 100%);
+  color: var(--sd-text);
+  color-scheme: dark;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", sans-serif;
+}
+
+.symbolicdrop-page a {
+  color: inherit;
+}
+
+.symbolicdrop-page a:focus-visible {
+  outline: 2px solid var(--sd-accent);
+  outline-offset: 3px;
+}
+
+.symbolicdrop-main {
+  width: min(100% - 40px, 1120px);
+  margin: 0 auto;
+  padding: 68px 0 72px;
+}
+
+.symbolicdrop-hero {
+  padding: 36px 0 42px;
+}
+
+.symbolicdrop-logo {
+  display: block;
+  width: 96px;
+  height: 96px;
+  margin-bottom: 20px;
+}
+
+.symbolicdrop-eyebrow {
+  margin: 0 0 14px;
+  color: var(--sd-accent);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.symbolicdrop-hero h1 {
+  margin: 0;
+  max-width: 10ch;
+  font-size: clamp(2.6rem, 7vw, 5rem);
+  line-height: 0.96;
+  letter-spacing: -0.07em;
+}
+
+.symbolicdrop-lead {
+  max-width: 62ch;
+  margin: 22px 0 0;
+  color: var(--sd-muted);
+  font-size: clamp(1.02rem, 1.8vw, 1.22rem);
+  line-height: 1.72;
+}
+
+.symbolicdrop-meta {
+  margin: 18px 0 0;
+  color: var(--sd-soft);
+  font-size: 0.94rem;
+  line-height: 1.55;
+}
+
+.symbolicdrop-linkbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.symbolicdrop-linkbar a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 0 16px;
+  border: 1px solid var(--sd-border);
+  border-radius: 999px;
+  background: var(--sd-surface);
+  text-decoration: none;
+}
+
+.symbolicdrop-linkbar a:hover {
+  background: var(--sd-surface-strong);
+}
+
+.symbolicdrop-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+  margin-top: 38px;
+}
+
+.symbolicdrop-card {
+  padding: 22px;
+  border-radius: 22px;
+  border: 1px solid var(--sd-border);
+  background: linear-gradient(180deg, rgba(255,255,255,.08), rgba(255,255,255,.035));
+  box-shadow: 0 18px 56px rgba(0, 0, 0, 0.2);
+}
+
+.symbolicdrop-card h2 {
+  margin: 0 0 10px;
+  font-size: 1.2rem;
+  line-height: 1.15;
+  letter-spacing: -0.04em;
+}
+
+.symbolicdrop-card p,
+.symbolicdrop-card li {
+  margin: 0;
+  color: var(--sd-muted);
+  line-height: 1.7;
+}
+
+.symbolicdrop-card ul {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.symbolicdrop-card li + li {
+  margin-top: 8px;
+}
+
+.symbolicdrop-section {
+  margin-top: 24px;
+}
+
+.symbolicdrop-section h2 {
+  margin: 0 0 12px;
+  font-size: clamp(1.5rem, 3vw, 2.2rem);
+  letter-spacing: -0.045em;
+  line-height: 1.1;
+}
+
+.symbolicdrop-section p {
+  max-width: 72ch;
+  margin: 0;
+  color: var(--sd-muted);
+  line-height: 1.75;
+}
+
+.symbolicdrop-section + .symbolicdrop-section {
+  margin-top: 24px;
+}
+
+.symbolicdrop-footnote {
+  max-width: 64ch;
+  color: var(--sd-soft);
+}
+
+.symbolicdrop-footer {
+  width: min(100% - 40px, 1120px);
+  margin: 0 auto;
+  padding: 30px 0 48px;
+  border-top: 1px solid var(--sd-border);
+}
+
+.symbolicdrop-footer nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.symbolicdrop-footer a {
+  color: var(--sd-soft);
+  text-decoration: none;
+}
+
+.symbolicdrop-footer a:hover {
+  color: var(--sd-text);
+}
+
+@media (max-width: 720px) {
+  .symbolicdrop-main {
+    width: min(100% - 28px, 1120px);
+    padding: 48px 0 56px;
+  }
+
+  .symbolicdrop-hero {
+    padding-top: 22px;
+  }
+
+  .symbolicdrop-logo {
+    width: 88px;
+    height: 88px;
+  }
+
+  .symbolicdrop-hero h1 {
+    max-width: 11ch;
+    font-size: clamp(2.2rem, 13vw, 3.8rem);
+  }
+
+  .symbolicdrop-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .symbolicdrop-footer {
+    width: min(100% - 28px, 1120px);
+  }
+}
