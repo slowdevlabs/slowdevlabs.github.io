@@ -41,7 +41,7 @@ button:focus-visible,
 }
 
 .displayNone{
-  display: none;
+  display: none!important;
 }
 
 @media (prefers-color-scheme: light) {
