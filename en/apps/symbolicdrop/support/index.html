@@ -26,8 +26,8 @@
       <p class="symbolicdrop-eyebrow">Support</p>
       <h1>SymbolicDrop support notes</h1>
       <p class="symbolicdrop-lead">
-        Use these notes to understand the basic workflow, destination choices, and the macOS
-        permission prompts that may appear while the app is managing local links.
+        Use these notes to understand the drag workflow, the Desktop destination, and the macOS
+        permission prompts that may appear while the app creates symbolic links.
       </p>
       <p class="symbolicdrop-meta">
         Support email: <a href="mailto:slowdevlabs+symbolicdrop@gmail.com">slowdevlabs+symbolicdrop@gmail.com</a>
@@ -38,36 +38,36 @@
       <article class="symbolicdrop-card">
         <h2>Basic usage</h2>
         <ul>
-          <li>Choose the source item you want to link.</li>
-          <li>Select the destination location on your desktop or in Finder.</li>
-          <li>Confirm the action and review the result in the destination folder.</li>
+          <li>Select a file or folder in Finder.</li>
+          <li>Hold ⌘ + ⇧ while dragging.</li>
+          <li>Drop onto the floating target.</li>
+          <li>A symbolic link is created on your Desktop.</li>
         </ul>
       </article>
 
       <article class="symbolicdrop-card">
         <h2>Modifier keys</h2>
         <ul>
-          <li>If the app shows alternate actions, use the modifier key hint shown on screen.</li>
-          <li>Mac keyboard shortcuts may change the available action before you confirm.</li>
-          <li>Follow the on-screen label for the current build of the app.</li>
+          <li>Hold ⌘ + ⇧ while dragging a file or folder to show the floating target.</li>
+          <li>SymbolicDrop uses this trigger to avoid conflicting with Finder's built-in alias behavior.</li>
         </ul>
       </article>
 
       <article class="symbolicdrop-card">
         <h2>Desktop destination</h2>
         <ul>
-          <li>SymbolicDrop works best when the destination is easy to inspect.</li>
-          <li>Use a visible desktop folder if you want a simple review path.</li>
-          <li>Keep the source and destination naming clear so the link stays understandable later.</li>
+          <li>SymbolicDrop currently creates symbolic links on your Desktop.</li>
+          <li>You can open the destination folder from the app settings.</li>
+          <li>Keep the source and destination paths clear so the link stays easy to understand later.</li>
         </ul>
       </article>
 
       <article class="symbolicdrop-card">
         <h2>Permission prompts</h2>
         <ul>
-          <li>macOS may ask for Files and Folders access when the app needs it.</li>
-          <li>Allow access only for the folders you want SymbolicDrop to manage.</li>
-          <li>If permission is denied, the app cannot complete the requested file operation.</li>
+          <li>macOS may ask for Files and Folders access when SymbolicDrop creates or opens links on your Desktop.</li>
+          <li>Allow access only for the folders you want SymbolicDrop to use.</li>
+          <li>If access is denied, the requested file operation may not complete.</li>
         </ul>
       </article>
     </section>

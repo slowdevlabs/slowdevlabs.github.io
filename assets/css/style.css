@@ -40,6 +40,10 @@ button:focus-visible,
   outline-offset: 3px;
 }
 
+.displayNone{
+  display: none;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     --bg: #f5f7fb;
