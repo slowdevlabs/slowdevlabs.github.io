@@ -1,11 +1,11 @@
-/* Codex Gauge app page components */
+/* C-Gauge app page components */
 
-.codex-gauge-page {
+.c-gauge-page {
   padding-bottom: 96px;
   overflow-x: hidden;
 }
 
-.codex-gauge-hero {
+.c-gauge-hero {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
   align-items: center;
@@ -14,19 +14,19 @@
   padding: 72px 0 84px;
 }
 
-.codex-gauge-hero > *,
-.codex-gauge-page .section-header,
-.codex-gauge-page .faq-item,
-.codex-gauge-page .app-card {
+.c-gauge-hero > *,
+.c-gauge-page .section-header,
+.c-gauge-page .faq-item,
+.c-gauge-page .app-card {
   min-width: 0;
 }
 
-.codex-gauge-hero h1 {
+.c-gauge-hero h1 {
   max-width: 760px;
   margin: 18px 0 22px;
 }
 
-.codex-gauge-icon {
+.c-gauge-icon {
   width: clamp(132px, 18vw, 220px);
   height: clamp(132px, 18vw, 220px);
   border-radius: 28%;
@@ -195,14 +195,14 @@
 }
 
 @media (max-width: 860px) {
-  .codex-gauge-hero {
+  .c-gauge-hero {
     grid-template-columns: 1fr;
     gap: 36px;
     min-height: auto;
     padding: 42px 0 56px;
   }
 
-  .codex-gauge-icon {
+  .c-gauge-icon {
     order: -1;
   }
 
@@ -216,35 +216,35 @@
 }
 
 @media (max-width: 520px) {
-  .codex-gauge-hero > div,
-  .codex-gauge-page .section-header,
-  .codex-gauge-page .hero-text,
-  .codex-gauge-page h1,
-  .codex-gauge-page h2,
-  .codex-gauge-page .status-badge {
+  .c-gauge-hero > div,
+  .c-gauge-page .section-header,
+  .c-gauge-page .hero-text,
+  .c-gauge-page h1,
+  .c-gauge-page h2,
+  .c-gauge-page .status-badge {
     max-width: calc(100vw - 28px);
   }
 
-  .codex-gauge-page .hero-text {
+  .c-gauge-page .hero-text {
     max-width: min(24ch, calc(100vw - 28px));
   }
 
-  .codex-gauge-page h2 {
+  .c-gauge-page h2 {
     max-width: min(11ch, calc(100vw - 28px));
   }
 
-  .codex-gauge-page h1 {
+  .c-gauge-page h1 {
     font-size: clamp(2.75rem, 11vw, 3.1rem);
     letter-spacing: -.055em;
   }
 
-  .codex-gauge-page h2 {
+  .c-gauge-page h2 {
     font-size: clamp(1.85rem, 8vw, 2.25rem);
     line-height: 1.06;
     letter-spacing: -.045em;
   }
 
-  .codex-gauge-page .section-copy,
+  .c-gauge-page .section-copy,
   .doc-card p,
   .doc-card li {
     max-width: 100%;
