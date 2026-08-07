@@ -37,14 +37,6 @@
   box-shadow: 0 30px 90px rgba(0,0,0,.38);
 }
 
-.c-gauge-hero-shot {
-  width: min(100%, 440px);
-  height: auto;
-  border-radius: 26px;
-  box-shadow: 0 30px 90px rgba(0,0,0,.35);
-  justify-self: end;
-}
-
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
@@ -117,7 +109,7 @@
 
 .screenshot-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 360px));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   justify-content: center;
   gap: 18px;
   margin-top: 28px;
@@ -125,7 +117,7 @@
 
 .screenshot-card {
   width: 100%;
-  max-width: 360px;
+  max-width: 340px;
   margin: 0 auto;
   overflow: hidden;
   border: 1px solid var(--border);
@@ -260,12 +252,6 @@
     padding: 42px 0 56px;
   }
 
-  .c-gauge-hero-shot {
-    order: -1;
-    width: min(100%, 520px);
-    justify-self: start;
-  }
-
   .language-nav {
     margin-top: 6px;
   }
@@ -309,10 +295,6 @@
   .doc-card li {
     max-width: 100%;
     overflow-wrap: anywhere;
-  }
-
-  .c-gauge-hero-shot {
-    border-radius: 20px;
   }
 
   .screenshot-grid {
