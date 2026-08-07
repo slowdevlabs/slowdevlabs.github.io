@@ -38,7 +38,7 @@
 }
 
 .c-gauge-hero-shot {
-  width: min(100%, 560px);
+  width: min(100%, 440px);
   height: auto;
   border-radius: 26px;
   box-shadow: 0 30px 90px rgba(0,0,0,.35);
@@ -117,12 +117,16 @@
 
 .screenshot-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 360px));
+  justify-content: center;
   gap: 18px;
   margin-top: 28px;
 }
 
 .screenshot-card {
+  width: 100%;
+  max-width: 360px;
+  margin: 0 auto;
   overflow: hidden;
   border: 1px solid var(--border);
   border-radius: var(--radius);
@@ -130,7 +134,7 @@
 }
 
 .screenshot-media {
-  aspect-ratio: 16 / 10;
+  aspect-ratio: 4 / 3;
   overflow: hidden;
   background: rgba(255,255,255,.03);
 }
@@ -258,15 +262,12 @@
 
   .c-gauge-hero-shot {
     order: -1;
+    width: min(100%, 520px);
     justify-self: start;
   }
 
   .language-nav {
     margin-top: 6px;
-  }
-
-  .screenshot-grid {
-    grid-template-columns: 1fr;
   }
 
   .about-panel {
@@ -312,6 +313,10 @@
 
   .c-gauge-hero-shot {
     border-radius: 20px;
+  }
+
+  .screenshot-grid {
+    grid-template-columns: 1fr;
   }
 
   .status-badge {
