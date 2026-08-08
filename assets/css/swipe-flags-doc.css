@@ -1,0 +1,193 @@
+:root {
+  --swipe-doc-bg: #050914;
+  --swipe-doc-panel: rgba(255, 255, 255, 0.07);
+  --swipe-doc-panel-strong: rgba(255, 255, 255, 0.1);
+  --swipe-doc-border: rgba(255, 255, 255, 0.12);
+  --swipe-doc-text: #f6f7fb;
+  --swipe-doc-muted: rgba(246, 247, 251, 0.7);
+  --swipe-doc-soft: rgba(246, 247, 251, 0.48);
+  --swipe-doc-accent: #ffcf62;
+  --swipe-doc-accent-2: #7bdcf9;
+  --swipe-doc-radius: 28px;
+  --swipe-doc-shadow: 0 28px 90px rgba(0, 0, 0, 0.28);
+}
+
+html {
+  background: var(--swipe-doc-bg);
+}
+
+body.swipe-flags-doc-page {
+  background:
+    radial-gradient(circle at 82% 18%, rgba(255, 88, 103, 0.2), transparent 28%),
+    radial-gradient(circle at 18% 0%, rgba(123, 220, 249, 0.16), transparent 32%),
+    linear-gradient(180deg, #060a16 0%, #050914 58%, #030711 100%);
+}
+
+.swipe-flags-doc-main {
+  width: min(100% - 40px, var(--max));
+  margin: 0 auto;
+  padding: 44px 0 56px;
+}
+
+.swipe-flags-doc-hero {
+  padding: 48px 0 28px;
+  max-width: 860px;
+}
+
+.swipe-flags-doc-hero h1 {
+  margin: 14px 0 18px;
+  font-size: clamp(2.7rem, 6vw, 4.9rem);
+  line-height: 0.95;
+  letter-spacing: -0.08em;
+}
+
+.swipe-flags-doc-lede {
+  margin: 0;
+  max-width: 760px;
+  color: var(--muted);
+  font-size: clamp(1.02rem, 1.8vw, 1.18rem);
+  line-height: 1.7;
+}
+
+.swipe-flags-doc-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 24px 0 0;
+}
+
+.swipe-flags-doc-date {
+  margin: 12px 0 0;
+  color: var(--swipe-doc-soft);
+  font-size: 0.92rem;
+}
+
+.swipe-flags-doc-pill {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  padding: 0 14px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--muted);
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
+.swipe-flags-doc-section {
+  margin-top: 18px;
+}
+
+.swipe-flags-doc-panel {
+  padding: 26px;
+  border: 1px solid var(--swipe-doc-border);
+  border-radius: var(--swipe-doc-radius);
+  background: linear-gradient(180deg, var(--swipe-doc-panel-strong), var(--swipe-doc-panel));
+  box-shadow: var(--swipe-doc-shadow);
+  backdrop-filter: blur(18px);
+}
+
+.swipe-flags-doc-panel + .swipe-flags-doc-panel,
+.swipe-flags-doc-grid + .swipe-flags-doc-panel {
+  margin-top: 18px;
+}
+
+.swipe-flags-doc-section h2,
+.swipe-flags-doc-panel h2,
+.swipe-flags-doc-panel h3 {
+  letter-spacing: -0.04em;
+}
+
+.swipe-flags-doc-section h2 {
+  margin: 0 0 16px;
+  font-size: clamp(1.65rem, 3vw, 2.4rem);
+  line-height: 1.05;
+}
+
+.swipe-flags-doc-panel h2 {
+  margin: 0 0 12px;
+  font-size: 1.45rem;
+  line-height: 1.2;
+}
+
+.swipe-flags-doc-panel p,
+.swipe-flags-doc-panel li {
+  color: var(--swipe-doc-text);
+  font-size: 0.98rem;
+  line-height: 1.75;
+}
+
+.swipe-flags-doc-copy {
+  margin: 0 0 18px;
+  color: var(--swipe-doc-muted);
+}
+
+.swipe-flags-doc-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.swipe-flags-doc-card {
+  padding: 22px;
+  border: 1px solid var(--swipe-doc-border);
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.045);
+}
+
+.swipe-flags-doc-card h3 {
+  margin: 0 0 10px;
+  color: var(--swipe-doc-accent);
+  font-size: 1.04rem;
+  line-height: 1.35;
+}
+
+.swipe-flags-doc-list {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.swipe-flags-doc-list li + li {
+  margin-top: 8px;
+}
+
+.swipe-flags-doc-note {
+  margin: 14px 0 0;
+  color: var(--swipe-doc-soft);
+}
+
+.swipe-flags-doc-note a,
+.swipe-flags-doc-panel a {
+  color: var(--swipe-doc-accent);
+  font-weight: 700;
+}
+
+.swipe-flags-doc-panel a:hover,
+.swipe-flags-doc-note a:hover {
+  color: var(--swipe-doc-accent-2);
+}
+
+.swipe-flags-doc-footer-link {
+  color: var(--swipe-doc-accent-2);
+}
+
+@media (max-width: 760px) {
+  .swipe-flags-doc-main {
+    width: min(100% - 28px, var(--max));
+    padding-top: 28px;
+  }
+
+  .swipe-flags-doc-hero {
+    padding-top: 24px;
+  }
+
+  .swipe-flags-doc-panel,
+  .swipe-flags-doc-card {
+    padding: 20px;
+  }
+
+  .swipe-flags-doc-grid {
+    grid-template-columns: 1fr;
+  }
+}
