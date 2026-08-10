@@ -16,7 +16,7 @@
 }
 
 .swipe-flags-page .section-header,
-.swipe-flags-page .app-card {
+.swipe-flags-page .feature-list {
   min-width: 0;
 }
 
@@ -113,6 +113,21 @@
   margin-bottom: 0;
   color: var(--muted);
   line-height: 1.65;
+}
+
+.feature-list {
+  margin: 24px 0 0;
+  padding-left: 1.2rem;
+  color: var(--muted);
+  line-height: 1.75;
+}
+
+.feature-list li + li {
+  margin-top: 10px;
+}
+
+.feature-list strong {
+  color: var(--text);
 }
 
 @media (max-width: 980px) {
