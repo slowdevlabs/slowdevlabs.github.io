@@ -110,6 +110,23 @@ button:focus-visible,
   color: var(--text);
 }
 
+.language-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: flex-end;
+}
+
+.language-nav a {
+  color: var(--soft);
+  font-size: 14px;
+  transition: color 0.2s ease, opacity 0.2s ease;
+}
+
+.language-nav a:hover {
+  color: var(--text);
+}
+
 .app-footer {
   width: min(100% - 40px, var(--max));
   margin: 0 auto;
