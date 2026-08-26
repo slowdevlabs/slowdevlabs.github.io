@@ -73,16 +73,14 @@
     </p>
   </main>
 
-  <script>
-    const params = new URLSearchParams(window.location.search);
-    const rawCode = params.get("code") || "";
-    const code = rawCode
-      .toUpperCase()
-      .replace(/[^A-Z2-9]/g, "")
-      .slice(0, 8);
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const rawCode = (params.get("code") || "").trim().toUpperCase();
 
-    document.getElementById("inviteCode").textContent =
-      code.length === 8 ? code : "잘못된 코드";
-  </script>
+  const isValid = /^[A-Z2-9]{8}$/.test(rawCode);
+
+  document.getElementById("inviteCode").textContent =
+    isValid ? rawCode : "잘못된 코드";
+</script>
 </body>
 </html>
