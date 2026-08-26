@@ -17,7 +17,8 @@
 
 .swipe-flags-hero-media {
   margin-top: 32px;
-  max-width: 920px;
+  max-width: 420px;
+  width: 100%;
   border: 1px solid var(--border);
   border-radius: calc(var(--radius) + 6px);
   background: rgba(255,255,255,.04);
@@ -28,8 +29,8 @@
 .swipe-flags-hero-video {
   display: block;
   width: 100%;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
+  aspect-ratio: 9 / 16;
+  object-fit: contain;
   background: #0b1020;
 }
 
