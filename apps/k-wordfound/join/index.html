@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>K-WordFound Invite</title>
+</head>
+<body>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const code = params.get("code") || "";
+
+    const language = (navigator.language || "en").toLowerCase();
+
+    let locale = "en";
+
+    if (language.startsWith("ko")) {
+      locale = "ko";
+    } else if (language.startsWith("es")) {
+      locale = "es";
+    }
+
+    const target =
+      `/${locale}/apps/k-wordfound/join/?code=${encodeURIComponent(code)}`;
+
+    window.location.replace(target);
+  </script>
+</body>
+</html>
