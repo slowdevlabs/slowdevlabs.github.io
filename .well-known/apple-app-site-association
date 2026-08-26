@@ -1,0 +1,16 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "U2LNNGUXAW.com.slowdevlabs.KWordFound"
+        ],
+        "components": [
+          {
+            "/": "/apps/k-wordfound/join/"
+          }
+        ]
+      }
+    ]
+  }
+}
